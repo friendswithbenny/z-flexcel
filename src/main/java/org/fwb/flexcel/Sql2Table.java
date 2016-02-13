@@ -27,9 +27,8 @@ import com.google.common.collect.Collections2;
 
 /**
  * utility to convert relational sql results (jdbc ResultSet) into html-style, strict XML data dump.
- * 
- * @deprecated this class is no longer needed, as it provides no real speed gains over using SQL2XML with a to-table transform
- * @see org.fwb/???/SQL2XML.toTable(_)
+ * TODO is this class needed? it provides no real speed gains over using SQL2XML with a to-table transform
+ * @deprecated see org.fwb/sql-xml/org.fwb.sql.xml.Sql2Table
  */
 class Sql2Table {
 	/**

@@ -2,13 +2,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.fwb</groupId>
-	<artifactId>flexcel</artifactId>
+	<groupId>org.fwb.z</groupId>
+	<artifactId>z-flexcel</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 
 	<name>Flexcel</name>
-	<url>https://github.com/friendswithbenny/flexcel</url>
+	<url>https://github.com/friendswithbenny/z-flexcel</url>
 
 	<developers>
 		<developer>
@@ -17,35 +17,23 @@
 			<organizationUrl>https://github.com/friendswithbenny</organizationUrl>
 		</developer>
 	</developers>
-
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
-
+	
 	<dependencies>
+		<dependency>
+			<groupId>org.fwb</groupId>
+			<artifactId>fwb-dirp</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.fwb</groupId>
+			<artifactId>fwb-jdbx</artifactId>
+			<version>1.1-SNAPSHOT</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>17.0</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.fwb</groupId>
-			<artifactId>jql</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>org.fwb</groupId>
-			<artifactId>dir</artifactId>
-			<version>1.0-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>
