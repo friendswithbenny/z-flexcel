@@ -7,6 +7,7 @@ import java.sql.SQLException;
 
 import au.com.bytecode.opencsv.CSVWriter;
 
+/** @deprecated example-only */
 public class Sql2Csv {
 	/** @deprecated static utilities only */
 	@Deprecated

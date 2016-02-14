@@ -15,6 +15,7 @@ import javax.xml.transform.sax.TransformerHandler;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
+import org.fwb.flexcel.html.Sql2Table;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.xml.sax.InputSource;
@@ -23,6 +24,7 @@ import org.xml.sax.XMLReader;
 
 import com.google.common.base.Function;
 
+// TODO test this, I don't get 
 class Sql2WorksheetXml {
 	private static final Logger LOG = LoggerFactory.getLogger(Sql2WorksheetXml.class);
 	

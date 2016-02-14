@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+given a relatively simple html table
+(surely a pretty bare subset of valid html tables),
+this converts it to an excel worksheet.
+-->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
 	
+	<!-- required -->
 	<xsl:param name="dateStyleIndex" />
+	<!-- optional (default false) -->
 	<xsl:param name="date1904" />
 	
 	<xsl:variable name="mils1900" select="-2209057200000" />
