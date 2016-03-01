@@ -23,8 +23,8 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
-import org.fwb.dir.ZipDirectory;
-import org.fwb.dir.ZipUtility;
+import org.fwb.file.zip.ZipDirectory;
+import org.fwb.file.zip.ZipUtility;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
